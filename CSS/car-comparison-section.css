@@ -1,0 +1,404 @@
+.car-comparing {
+    background-color: rgb(247, 246, 246);
+    height: 100vh;
+    padding: 50px;
+}
+
+.info-cont {
+    /* border: 1px solid rgb(17, 226, 233); */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.info-cont h5 {
+    /* border: 1px solid rgb(17, 226, 233); */
+    position: relative;
+    left: -250px;
+}
+
+.info-cont p {
+    /* border: 1px solid rgb(17, 226, 233); */
+    position: relative;
+    left: 250px;
+}
+
+.car-comparing+h5 {
+    border: 1px solid rgb(60, 233, 17);
+    width: 200px;
+    position: relative;
+    left: -160px;
+}
+
+.car-comparing+p {
+    border: 1px solid rgb(236, 6, 6);
+    width: 200px;
+    position: relative;
+    left: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightside {
+    border: 1px solid rgb(233, 228, 228);
+    width: 40vw;
+    height: 60vh;
+}
+
+.rightside button {
+    border: 1px solid rgb(43, 194, 240);
+    margin: 50px 10px 10px 150px;
+    padding: 5px 75px 5px 75px;
+
+}
+
+.car-images {
+    display: flex;
+
+}
+
+.car-images h4 {
+    /* text-align: center; */
+    margin: 100px 10px 10px 10px;
+    /* border: 1px solid rgb(211, 75, 51); */
+    /* background-color:  rgb(211, 75, 51); */
+    /* border-radius: 50%; */
+    font-weight: bolder;
+
+}
+
+.car-model {
+    /* border: 1px solid rgb(0, 204, 255); */
+    /* width: 25%; */
+    padding: 25px;
+}
+
+.car-model-img {
+    /* border: 1px solid rgb(0, 217, 255); */
+    width: 100%;
+    height: 100%;
+}
+
+.car-model h5 {
+    /* border: 1px solid rgb(0, 204, 255); */
+    width: 30%;
+    margin: 20px 0 0 50px;
+    font-weight: 500;
+    text-transform:uppercase;
+}
+
+.leftside {
+    /* border: 1px solid rgb(157, 255, 0); */
+    width: 20vw;
+
+    /* padding: 5px; */
+}
+
+.small-side {
+    border: 1px solid rgb(233, 228, 228);
+    /* width: 40%; */
+    height: 30vh;
+    padding: 27px;
+    text-align: center;
+}
+
+.small-side h5 {
+    font-weight: bold;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    width: 40%;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    /* top: -40px; */
+    left: 70px;
+}
+
+.small-side h6 {
+    color: black;
+    position: relative;
+    top: 0px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .info-cont h5 {
+        /* border: 1px solid rgb(17, 226, 233); */
+        position: relative;
+        left: -200px;
+    }
+
+    .info-cont p {
+        /* border: 1px solid rgb(17, 226, 233); */
+        position: relative;
+        left: 200px;
+    }
+
+    .car-model h5 {
+        /* border: 1px solid rgb(0, 204, 255); */
+        width: 100%;
+        position: relative;
+        top: -15px;
+    }
+    .rightside button {
+        border: 1px solid rgb(43, 194, 240);
+        margin: 25px 10px 10px 120px;
+    
+    }
+    .small-side h5 {
+        width: 40%;
+        text-align: center;
+        position: relative;
+        left: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .info-cont {
+        /* border: 1px solid rgb(17, 226, 233); */
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .info-cont h5 {
+        /* border: 1px solid rgb(17, 226, 233); */
+        position: relative;
+        left: -100px;
+    }
+
+    .info-cont p {
+        /* border: 1px solid rgb(17, 226, 233); */
+        position: relative;
+        left: 100px;
+    }
+
+    .rightside {
+        border: 1px solid rgb(233, 228, 228);
+        width: 40vw;
+        height: 50vh;
+    }
+
+    .rightside button {
+        margin: 10px 10px 10px 75px;
+        padding: 5px 20px 5px 20px;
+
+    }
+
+    .car-images h4 {
+        font-size: 90%;
+        position: relative;
+        top: -40px;
+    }
+
+    .car-model-img {
+        width: 100%;
+        height: 80%;
+    }
+
+    .car-model h5 {
+        width: 100%;
+        position: relative;
+        top: -15px;
+        left: -30px;
+    }
+
+    .leftside {
+        width: 25vw;
+    }
+
+    .small-side h5 {
+        width: 40%;
+        border-radius: 40%;
+        text-align: center;
+        position: relative;
+        top: -20px;
+        left: 40px;
+    }
+
+    .small-side h6 {
+        width: 100%;
+        font-size: 90%;
+        color: black;
+        position: relative;
+        top: -20px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .info-cont h5 {
+        /* border: 1px solid rgb(17, 226, 233); */
+        position: relative;
+        left: -20px;
+    }
+
+    .info-cont p {
+        /* border: 1px solid rgb(17, 226, 233); */
+        position: relative;
+        left: 30px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rightside {
+        border: 1px solid rgb(233, 228, 228);
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .rightside button {
+        margin: 10px 10px 10px 100px;
+        padding: 5px 20px 5px 20px;
+
+    }
+
+    .car-images h4 {
+        font-size: 90%;
+        position: relative;
+        top: -40px;
+    }
+
+    .car-model-img {
+        width: 100%;
+        height: 80%;
+    }
+
+    .car-model h5 {
+        width: 100%;
+        position: relative;
+        top: -15px;
+        left: -30px;
+    }
+
+    .leftside {
+        display: flex;
+        width: 90%;
+        height: 50%;
+        justify-content: center;
+
+    }
+
+    .small-side {
+        border: 1px solid rgb(233, 228, 228);
+        width: 43%;
+        height: 25vh;
+        padding: 27px;
+        text-align: center;
+    }
+
+    .small-side h5 {
+        /* border: 1px solid red; */
+        text-align: center;
+        width: 40%;
+        border-radius: 40%;
+        background-color: transparent;
+        color: brown;
+        position: relative;
+        top: -20px;
+        left: 30px;
+    }
+
+    .small-side h6 {
+        /* width: 100%; */
+        font-size: 80%;
+        text-align: center;
+        color: black;
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media (min-width: 0) and (max-width: 576px) {
+    .info-cont h5 {
+        /* border: 1px solid rgb(17, 226, 233); */
+        position: relative;
+        left: -20px;
+    }
+
+    .info-cont p {
+        /* border: 1px solid rgb(17, 226, 233); */
+        position: relative;
+        left: 30px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rightside {
+        border: 1px solid rgb(233, 228, 228);
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .rightside button {
+        margin: 10px 10px 10px 100px;
+        padding: 5px 20px 5px 20px;
+
+    }
+
+    .car-images h4 {
+        font-size: 90%;
+        position: relative;
+        top: -40px;
+    }
+
+    .car-model-img {
+        width: 100%;
+        height: 80%;
+    }
+
+    .car-model h5 {
+        width: 100%;
+        position: relative;
+        top: -15px;
+        left: -30px;
+    }
+
+    .leftside {
+        display: flex;
+        width: 90%;
+        height: 50%;
+        justify-content: center;
+
+    }
+
+    .small-side {
+        border: 1px solid rgb(233, 228, 228);
+        width: 43%;
+        height: 25vh;
+        padding: 27px;
+        text-align: center;
+    }
+
+    .small-side h5 {
+        /* border: 1px solid red; */
+        text-align: center;
+        width: 40%;
+        border-radius: 40%;
+        background-color: transparent;
+        color: brown;
+        position: relative;
+        top: -20px;
+        left: 30px;
+    }
+
+    .small-side h6 {
+        /* width: 100%; */
+        font-size: 80%;
+        text-align: center;
+        color: black;
+        position: relative;
+        top: -20px;
+    }
+}

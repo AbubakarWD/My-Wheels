@@ -1,0 +1,219 @@
+.coversec {
+    border: 1px solid rgb(39, 37, 24);
+    height: 100vh;
+    display: flex;
+    background: url(../Images/cover\ image.jpg) no-repeat center center/cover;
+    /* background-color: rgba(114, 94, 94, 0.3); */
+    /* opacity: 0.7; */
+}
+
+.coversec form {
+    /* border: 1px solid rebeccapurple; */
+    background-color: rgba(121, 118, 118, 0.8);
+    /* background: transparent; */
+    margin: 350px auto;
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+}
+
+.coversec div {
+    /* border: 1px solid rebeccapurple; */
+    /* font-size: 20px; */
+    /* width: 250px; */
+    margin: auto;
+    /* text-align: center; */
+}
+
+.coversec div label {
+    /* border: 1px solid rebeccapurple; */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+.coversec div input,
+select {
+    /* border: 1px solid rgb(51, 138, 153); */
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+.Search-button {
+    height: 40px;
+    width: 120px;
+    /* margin: 100px auto; */
+    margin-top: 59px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.Search-button:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .coversec {
+        height: 100vh;
+    }
+
+    .coversec form {
+        width: 80vw;
+        height: 25vh;
+        position: relative;
+        top: -20px;
+    }
+
+    .coversec label {
+        margin: 10px;
+    }
+
+    .coversec div input,
+    select {
+        width: 230px;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .Search-button {
+        height: 40px;
+        width: 120px;
+        /* margin: 100px auto; */
+        margin-top: 50px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .coversec form {
+        width: 80vw;
+        height: 25vh;
+        position: relative;
+        top: -20px;
+    }
+
+    .coversec label {
+        font-size: 10px;
+        margin: 100px;
+        position: relative;
+        /* top: 5px; */
+        left: -10px;
+    }
+
+    .coversec div input,
+    select {
+        position: relative;
+        top: -20px;
+        width: 140px;
+        height: 75%;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .Search-button {
+        height: 40px;
+        width: 120px;
+        /* margin: 100px auto; */
+        margin-top: 40px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .coversec {
+        width: 100vw;
+        height: 75vh;
+
+    }
+
+    .coversec form {
+        width: 80vw;
+        height: 20vh;
+        position: relative;
+        top: -110px;
+    }
+
+    .coversec label {
+        font-size: 200px;
+        margin: 100px;
+        position: relative;
+        /* top: 5px; */
+        left: -10px;
+    }
+
+    .coversec div input,
+    select {
+        position: relative;
+        top: -20px;
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .Search-button {
+        height: 30px;
+        width: 100px;
+        /* margin: 100px auto; */
+        margin-top: 22px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 0) and (max-width: 576px) {
+    .coversec {
+        width: 100vw;
+        height: 60vh;
+
+    }
+
+    .coversec form {
+        width: 90vw;
+        height: 15vh;
+        position: relative;
+        top: -160px;
+        /* left: -75px; */
+    }
+
+    .coversec label {
+        font-size: 10px;
+        margin: 100px;
+        position: relative;
+        top: -10px;
+        left: -10px;
+    }
+
+    .coversec div input,
+    select {
+        position: relative;
+        top: -30px;
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .Search-button {
+        height: 30px;
+        width: 100px;
+        /* margin: 100px auto; */
+        margin-top: 22px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+}
